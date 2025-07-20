@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "v2KvJG+1W4w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RajputBoy\\source\\repos\\ResumeATSCalculator\\ResumeATSCalculator\\ResumeATSCalculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RajputBoy\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "C:\\Users\\RajputBoy\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

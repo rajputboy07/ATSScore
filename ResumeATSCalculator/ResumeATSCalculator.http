@@ -1,0 +1,55 @@
+@rootURL = http://localhost:5256
+
+GET {{rootURL}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{rootURL}}/api/books/
+Accept: application/json
+
+###
+
+GET {{rootURL}}/api/books/1
+Accept: application/json
+
+###
+
+POST {{rootURL}}/api/books/add
+Content-Type: application/json
+{
+  "id": 6,
+    "title": "OnePiece",
+    "author": "Eiichiro Oda",
+    "yearPublished": 1997
+}
+
+###
+
+
+PUT {{rootURL}}/api/books/5
+Content-Type: application/json
+{
+  "id": 5,
+    "title": "OnePiece",
+    "author": "Eiichiro Oda",
+    "yearPublished": 1997
+}
+
+###
+
+DELETE {{rootURL}}/api/books/1
+Accept: application/json
+
+###
+
+POST {{rootURL}}/api/resume/score
+Content-Type: application/json
+{
+    "Id": 6,
+    "Name": "OnePiece",
+    "Content": "Eiichiro Oda"
+    
+}
+
+###
